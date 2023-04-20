@@ -11,8 +11,8 @@ import seaborn as sns
 
 import nltk
 
-path = './Reviews.csv'
-df = pd.read_csv(path)
+#path = './Reviews.csv'
+#df = pd.read_csv(path)
 
 df = df.head(500)
 
