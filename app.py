@@ -14,7 +14,7 @@ import nltk
 #path = './Reviews.csv'
 #df = pd.read_csv(path)
 
-df = df.head(500)
+# df = df.head(500)
 
 def analyse(example):
     Tokens = nltk.word_tokenize(example)
